@@ -1,0 +1,13 @@
+#Github
+account auf github angelegt
+dort repo "lp" angelegt
+mac app von github installiert
+repo lp unterhalb des Verzeichnisses Github/lp angelegt
+jetzt Verbindung erforderlich zu https://github.com/fjli/lp.git
+bei Github folgende befehle:
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/fjli/lp.git
+git push -u origin master
